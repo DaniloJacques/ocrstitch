@@ -1,4 +1,5 @@
-# 🚀 OCR de Latas - Sistema Offline
+# Criando README completo e mastigado para usuário sem conhecimento de programação
+readme_content = '''# 🚀 OCR de Latas - Sistema Offline
 
 ## 📋 O que é este projeto?
 
@@ -103,7 +104,7 @@ O arquivo `config/settings.json` tem as regras automáticas:
 ### Configuração no Power Automate Desktop:
 
 1. **Ação: Executar Script Python**
-   - Caminho do Python: `C:\Users\SeuUsuario\AppData\Local\Programs\Python\Python39\python.exe`
+   - Caminho do Python: `C:\\Users\\SeuUsuario\\AppData\\Local\\Programs\\Python\\Python39\\python.exe`
    - Script: `power_automate_integration.py`
    - Argumentos: `input_images --power-automate`
 
@@ -197,3 +198,16 @@ Agora é só usar!
 ---
 
 *Criado com ❤️ pela Confrade Tech Solutions*
+'''
+
+# Salva o README
+with open('README.md', 'w', encoding='utf-8') as f:
+    f.write(readme_content)
+
+print("✅ README.md criado com instruções detalhadas!")
+print("📖 Manual completo criado com:")
+print("   - Instalação passo-a-passo")  
+print("   - Uso super simples")
+print("   - Integração Power Automate")
+print("   - Solução de problemas")
+print("   - Linguagem não-técnica")

@@ -1,0 +1,13 @@
+﻿Arquivo,Tipo,Descrição,Tamanho_Aprox,Uso,Obrigatório
+ocr_processor.py,Script Python,Motor OCR principal - processamento de imagens e extração de texto,15KB,Automático,Sim
+excel_generator.py,Script Python,Gerador de planilhas Excel e CSV com formatação profissional,12KB,Automático,Sim
+power_automate_integration.py,Script Python,Integração com Power Automate Desktop - workflow completo,10KB,Automático,Sim
+setup.py,Script Python,Configurador automático do ambiente e dependências,8KB,Uma vez na instalação,Sim
+INSTALAR.bat,Script Windows,Instalador automático para Windows - interface amigável,3KB,Uma vez na instalação,Sim (Windows)
+INSTALAR.sh,Script Unix,Instalador automático para Linux/Mac - interface amigável,3KB,Uma vez na instalação,Sim (Linux/Mac)
+PROCESSAR_LATAS.bat,Script Windows,"Executor principal para Windows - ""botão de processar""",2KB,Diário,Sim (Windows)
+PROCESSAR_LATAS.sh,Script Unix,"Executor principal para Linux/Mac - ""botão de processar""",2KB,Diário,Sim (Linux/Mac)
+README.md,Documentação,Manual completo do usuário com linguagem não-técnica,8KB,Consulta,Recomendado
+power-automate-guide.md,Documentação,Guia detalhado de integração com Power Automate Desktop,12KB,Consulta/Implementação,Se usar PA
+projeto-entrega-final.md,Documentação,Resumo executivo completo do projeto entregue,6KB,Apresentação,Recomendado
+requirements.txt,Configuração,Lista de dependências Python (todas gratuitas),1KB,Automático na instalação,Sim

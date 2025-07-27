@@ -1,0 +1,23 @@
+# OCR de Latas - Dependências Python
+# Todas as bibliotecas são 100% GRATUITAS!
+
+# Processamento de imagens
+opencv-python>=4.5.0
+
+# OCR (Reconhecimento de texto)
+pytesseract>=0.3.8
+
+# Manipulação de imagens
+Pillow>=8.0.0
+
+# Computação científica
+numpy>=1.19.0
+
+# Manipulação de dados
+pandas>=1.3.0
+
+# Manipulação de Excel
+openpyxl>=3.0.7
+
+# Requisições HTTP (para possíveis expansões futuras)
+requests>=2.25.0
